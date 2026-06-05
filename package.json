@@ -1,18 +1,20 @@
 {
-  "name": "storm-bot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "name": "your-app-name",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "build": "echo 'Build completed'"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0-rc13",
-    "@hapi/boom": "^10.0.1",
-    "pino": "^9.0.0",
-    "node-gtts": "^0.4.0"
+    "express": "^4.21.2",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=18.0.0"
   }
 }

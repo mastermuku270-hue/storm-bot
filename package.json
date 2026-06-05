@@ -7,12 +7,12 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
     "@hapi/boom": "^10.0.1",
-    "pino": "^8.17.2",
+    "pino": "^9.0.0",
     "node-gtts": "^0.4.0"
   },
   "engines": {
-    "node": "18"
+    "node": ">=18"
   }
 }
